@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  // Export static HTML instead of using the Image Optimization API
+  output: 'export',
+  images: {
+    unoptimized: true
+  },
 }
-module.exports = nextConfig;
+
+module.exports = nextConfig
