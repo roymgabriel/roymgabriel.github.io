@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Export static HTML instead of using the Image Optimization API
   output: 'export',
-  images: {
-    unoptimized: true
-  },
-}
+  images: { unoptimized: true },
+  distDir: 'docs',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
