@@ -17,4 +17,4 @@ npm run dev
 npm run build
 ```
 
-Deploy to Vercel or GitHub Pages for a free domain.
+Website is hosted at [https://roymgabriel-github-io.vercel.app/](https://roymgabriel-github-io.vercel.app/)
