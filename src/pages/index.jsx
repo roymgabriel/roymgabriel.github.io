@@ -19,12 +19,10 @@ export default function Home() {
           />
         </div>
 
-
         <h1 className="mt-6 text-5xl font-extrabold">Roy Gabriel, PhD Candidate</h1>
-          <p className="mt-2 text-xl text-gray-600">
-            Medical Imaging AI • Multimodal Fusion • Cardiovascular Risk Prediction
-          </p>
-
+        <p className="mt-2 text-xl text-gray-600">
+          Medical Imaging AI • Multimodal Fusion • Cardiovascular Risk Prediction
+        </p>
 
         {/* Badges */}
         <div className="mt-4 flex flex-wrap justify-center gap-3">
@@ -99,19 +97,25 @@ export default function Home() {
       <Section title="Experience Snapshot">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card heading="Founder & Owner" sub="Makademy LLC (May 2021 – Present)">
-            • Built an ML-in-Finance course for IvyLine (90+ universities, 10 countries)
-            <br />• Automated derivative trading algorithm (0.5% avg weekly profit)
-            <br />• Sustained a 95% profit margin
+            <ul className="list-disc list-inside space-y-1">
+              <li>Built an ML-in-Finance course for IvyLine (90+ universities, 10 countries)</li>
+              <li>Automated derivative trading algorithm (0.5% avg weekly profit)</li>
+              <li>Sustained a 95% profit margin</li>
+            </ul>
           </Card>
           <Card heading="Quant Research Intern" sub="Dimensional Fund Advisors (Jun – Aug 2023)">
-            • Automated ETF basket analysis on 1.5 TB data
-            <br />• Reduced storage by 85%
-            <br />• Delivered ETF management recommendations
+            <ul className="list-disc list-inside space-y-1">
+              <li>Automated ETF basket analysis on 1.5 TB data</li>
+              <li>Reduced storage by 85%</li>
+              <li>Delivered ETF management recommendations</li>
+            </ul>
           </Card>
           <Card heading="FX Trading Intern" sub="BNY Mellon (Jun – Aug 2022)">
-            • Priced FX spot, swaps, & options → $143K PnL
-            <br />• Backtested volatility strategies (Cho & Frees)
-            <br />• Built a Bloomberg-API trading book
+            <ul className="list-disc list-inside space-y-1">
+              <li>Priced FX spot, swaps, &amp; options → $143K PnL</li>
+              <li>Backtested volatility strategies (Cho &amp; Frees)</li>
+              <li>Built a Bloomberg-API trading book</li>
+            </ul>
           </Card>
         </div>
       </Section>
