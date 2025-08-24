@@ -88,8 +88,8 @@ export default function Home() {
       {/* About Me */}
       <Section title="About Me">
         <p>
-          I’m a second-year PhD candidate at Georgia Tech (Advised by Dr. Ali Adibi), specializing in
-          medical imaging AI and multimodal deep fusion. I founded Makademy LLC to bridge academia and
+          I'm a third-year PhD candidate at Georgia Tech (Advised by Dr. Ali Adibi), specializing in
+          medical imaging AI and multimodal deep fusion using dimensionality reduction techniques. I founded Makademy LLC to bridge academia and
           industry through ML education and algorithmic trading. Outside the lab, I mentor students,
           host workshops, play piano, and enjoy soccer.
         </p>
