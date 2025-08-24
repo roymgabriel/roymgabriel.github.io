@@ -12,17 +12,19 @@ export default function Home() {
         <div className="w-48 h-48 relative rounded-full ring-4 ring-gray-100 overflow-hidden shadow-xl">
           <Image
             src="/placeholder-profile.jpeg"
-            alt="Roy Gabriel"
-            layout="fill"
-            objectFit="cover"
+            alt="Portrait of Roy Gabriel"
+            fill
+            className="object-cover"
             priority
           />
         </div>
 
+
         <h1 className="mt-6 text-5xl font-extrabold">Roy Gabriel, PhD Candidate</h1>
-        <p className="mt-2 text-xl text-gray-600">
-          Electrical &amp; Computer Engineering | Machine Learning
-        </p>
+          <p className="mt-2 text-xl text-gray-600">
+            Medical Imaging AI • Multimodal Fusion • Cardiovascular Risk Prediction
+          </p>
+
 
         {/* Badges */}
         <div className="mt-4 flex flex-wrap justify-center gap-3">
@@ -58,7 +60,7 @@ export default function Home() {
             LinkedIn
           </a>
           <a
-            href="https://scholar.google.com"
+            href="https://scholar.google.com/citations?user=6WfmcMEAAAAJ&hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
@@ -79,6 +81,7 @@ export default function Home() {
           >
             Makademy
           </a>
+          <a href="mailto:roy.makkargabriel@gatech.edu" className="hover:underline">Email</a>
         </div>
       </div>
 

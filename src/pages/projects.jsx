@@ -20,35 +20,50 @@ export default function Projects() {
 
       <Section title="Computational Science & Engineering">
         <Card heading="Urban Autonomous Taxi Simulation">
-          • Agent-based SimPy simulation with NYC Taxi & OpenStreetMap data<br />
-          • GCNN-DDGF demand forecasting, 49.6 RMSE<br />
-          • 5% increase in trip fulfillment, 38% fewer failures
+          <ul className="list-disc list-inside space-y-1">
+            <li>Agent-based SimPy simulation with NYC Taxi &amp; OpenStreetMap data</li>
+            <li>GCNN-DDGF demand forecasting, 49.6 RMSE</li>
+            <li>5% increase in trip fulfillment, 38% fewer failures</li>
+          </ul>
         </Card>
+
         <Card heading="Pneumonia Classification Project">
-          • Hybrid Bayesian-CNN with ResNet50 & EfficientNet B0 (F1 up to 73.3%)<br />
-          • LoRA adaptation reducing parameters by 90%
+          <ul className="list-disc list-inside space-y-1">
+            <li>Hybrid Bayesian-CNN with ResNet50 &amp; EfficientNet B0 (F1 up to 73.3%)</li>
+            <li>LoRA adaptation reducing parameters by 90%</li>
+          </ul>
         </Card>
       </Section>
 
       <Section title="Quantitative Finance">
         <Card heading="Thesis: LLMs & Portfolio Forecasting">
-          • BERT-based sentiment analysis of FDA announcements<br />
-          • Temporal Fusion Transformer & GCN for price prediction
+          <ul className="list-disc list-inside space-y-1">
+            <li>BERT-based sentiment analysis of FDA announcements</li>
+            <li>Temporal Fusion Transformer &amp; GCN for price prediction</li>
+          </ul>
         </Card>
+
         <Card heading="Crypto Statistical Arbitrage">
-          • PCA eigenportfolios, AR modeling, Sharpe 0.54<br />
-          • Dynamic signal mapping & backtesting routines
+          <ul className="list-disc list-inside space-y-1">
+            <li>PCA eigenportfolios, AR modeling, Sharpe 0.54</li>
+            <li>Dynamic signal mapping &amp; backtesting routines</li>
+          </ul>
         </Card>
       </Section>
 
       <Section title="Industry & Other Projects">
         <Card heading="NASA JPL MOID Regression Analysis">
-          • R stepwise & Lasso regression (adj. R²=0.366)<br />
-          • Q-Q plots, residual diagnostics, cross-validated lambda tuning
+          <ul className="list-disc list-inside space-y-1">
+            <li>R stepwise &amp; Lasso regression (adj. R²=0.366)</li>
+            <li>Q-Q plots, residual diagnostics, cross-validated lambda tuning</li>
+          </ul>
         </Card>
+
         <Card heading="Amazon Robotics Senior Design">
-          • Gradient Boosting & SARIMAX for stock optimization<br />
-          • Tableau integration & 4.05% cost reduction
+          <ul className="list-disc list-inside space-y-1">
+            <li>Gradient Boosting &amp; SARIMAX for stock optimization</li>
+            <li>Tableau integration &amp; 4.05% cost reduction</li>
+          </ul>
         </Card>
       </Section>
     </>
