@@ -46,9 +46,9 @@ export default function Research() {
 
       <Section title="Publications & Preprints">
         <ul className="list-disc list-inside space-y-3">
-          <li><strong>Deep Active Learning for Lung Disease Severity Classification from Chest X-rays</strong> — Submitted to <em>Journal of Imaging Informatics in Medicine</em>.</li>
-          <li><strong>Predicting 10-year MACE Using Multi-Source Modalities with XGBoost</strong> — Submitted to <em>Journal of Cardiovascular Computed Tomography</em>.</li>
-          <li><strong>Imbalance-Aware Multimodal Fusion on Probability Distributions</strong> — Submitted to <em>Radiology: Artificial Intelligence</em> (RSNA).</li>
+          <li><strong>Deep Active Learning for Lung Disease Severity Classification from Chest X-rays</strong> — Under review at <em>Journal of Imaging Informatics in Medicine</em>.</li>
+          <li><strong>Predicting 10-year MACE Using Multi-Source Modalities with XGBoost</strong> — Under review <em>Journal of Cardiovascular Computed Tomography</em>.</li>
+          <li><strong>Imbalance-Aware Multimodal Fusion on Probability Distributions</strong> — In preparation to submit to <em>Radiology: Artificial Intelligence</em> (RSNA).</li>
           <li>Co-author: <em>Explainable ML for Risk Stratification of MACE</em> — AHA Scientific Sessions 2025 (ID: 4366633).</li>
           <li>Co-author: <em>Observer Performance and Eye-Tracking Variations as a Function of AI Output Format</em> — SPIE Medical Imaging (DOI: 10.1117/12.3048588).</li>
         </ul>
